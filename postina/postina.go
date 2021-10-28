@@ -8,6 +8,7 @@ import (
 	"os"
 
 	"github.com/rusriver/httpwrap"
+	rusriverterr "github.com/rusriver/terr"
 )
 
 func main() {
@@ -19,6 +20,7 @@ func main() {
 		HTTPClient: &http.Client{
 			Jar: jar,
 		},
+		Terr: 	&rusriverterr.Terr{}
 	}
 
 	data, err := os.ReadFile(os.Args[1])

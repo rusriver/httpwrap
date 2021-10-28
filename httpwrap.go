@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	rusriverterr "github.com/rusriver/terr"
 	"io/ioutil"
 	"net/http"
 	"time"
+
+	rusriverterr "github.com/rusriver/terr"
 )
 
 type V15HTTP struct {
@@ -17,7 +18,7 @@ type V15HTTP struct {
 	LastResponseHTTPHeaders map[string]string
 	HTTPClient              *http.Client
 	OkHTTPResponseCodes     []int
-	Terr                    rusriverterr.Terr
+	Terr                    *rusriverterr.Terr
 }
 
 type V15HTTPRequestMessage struct {
