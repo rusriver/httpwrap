@@ -1,0 +1,23 @@
+{
+  "Method": "GET",
+  "URL": "https://somewhere.ru/api/v1/subjects",
+  "URLParams": {
+    "offset":         15,
+    "limit":          2,
+    "search":         "",
+    "sort_field":     "modified",
+    "sort_direction": "descending",
+    "mine":           "false"
+  },
+  "Headers": {
+    "Accept":          "application/json, text/plain, */*",
+    "Host":            "https://somewhere.ru",
+    "Content-Type":    "application/json",
+    "User-Agent":      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15",
+    "Referer":         "https://somewhere.ru/api/entry",
+    "Accept-Language": "en-us",
+    "Connection":      "keep-alive",
+    "Authorization":   "jkkkadshggg",
+    "Cookie":          "kjdsaafffas=sdafff"
+  }
+}

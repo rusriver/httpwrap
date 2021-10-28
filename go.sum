@@ -1,0 +1,8 @@
+github.com/mitchellh/copystructure v1.2.0 h1:vpKXTN4ewci03Vljg/q9QvCGUDttBOGBIa15WveJJGw=
+github.com/mitchellh/copystructure v1.2.0/go.mod h1:qLl+cE2AmVv+CoeAwDPye/v+N2HKCj9FbZEVFJRxO9s=
+github.com/mitchellh/reflectwalk v1.0.2 h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ=
+github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
+github.com/rusriver/filtertag v0.0.0-20210603110716-5484dfee3b7a h1:pxnsBBpgjh7/2WmLC4UrZO5BEP1cJVscS4A+WpVHUbU=
+github.com/rusriver/filtertag v0.0.0-20210603110716-5484dfee3b7a/go.mod h1:ATU8htsT+e0ScE+iEUP1uA6zzBoCqxYtXMf6jWbKtmo=
+github.com/rusriver/terr v0.0.0-20211028091830-6fb28a8e5d62 h1:eKJG7z8yuN5R38vjDk5eVSVBInYCVOeY13BglhglCu4=
+github.com/rusriver/terr v0.0.0-20211028091830-6fb28a8e5d62/go.mod h1:OxRg0/ALNobZJCZZpwGHikRkQG3wAXvWHo2TL8bE3xI=
