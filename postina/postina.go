@@ -20,7 +20,7 @@ func main() {
 		HTTPClient: &http.Client{
 			Jar: jar,
 		},
-		Terr: 	&rusriverterr.Terr{}
+		Terr: 	&rusriverterr.Terr{},
 	}
 
 	data, err := os.ReadFile(os.Args[1])
