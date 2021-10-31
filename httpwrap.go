@@ -21,6 +21,16 @@ type V15HTTP struct {
 	Terr                    *rusriverterr.Terr
 }
 
+type Base struct {
+	Retries                 int
+	RetryDelayMs            int
+	HTTPHeaders             map[string]string
+	LastResponseHTTPHeaders map[string]string
+	HTTPClient              *http.Client
+	OkHTTPResponseCodes     []int
+	Terr                    *rusriverterr.Terr
+}
+
 type V15HTTPRequestMessage struct {
 	Method    string
 	URL       string
