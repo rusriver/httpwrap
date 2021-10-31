@@ -31,6 +31,10 @@ type Base struct {
 	Terr                    *rusriverterr.Terr
 }
 
+func NewBase() (base *Base) {
+	return
+}
+
 type V15HTTPRequestMessage struct {
 	Method    string
 	URL       string
