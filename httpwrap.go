@@ -21,7 +21,7 @@ type V15HTTP struct {
 	Terr                    *rusriverterr.Terr
 }
 
-type Home struct {
+type Base struct {
 	Retries                 int
 	RetryDelayMs            int
 	HTTPHeaders             map[string]string
